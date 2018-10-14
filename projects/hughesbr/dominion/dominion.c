@@ -696,14 +696,16 @@ void card_smithy(int currentPlayer, struct gameState *state, int handPos)
 	}
 			
     //discard card from hand
-    discardCard(handPos, currentPlayer, state, 0);
+	//commenting out this line to introduce a bug
+    //discardCard(handPos, currentPlayer, state, 0);
 }
   
   //function for the village card
 void card_village(int currentPlayer, struct gameState *state, int handPos)
 {
 	//+1 Card
-    drawCard(currentPlayer, state);
+	//commenting out this line to introduce a bug
+    //drawCard(currentPlayer, state);
 			
     //+2 Actions
     state->numActions = state->numActions + 2;
@@ -724,7 +726,9 @@ void card_council_room(int currentPlayer, struct gameState *state, int handPos)
 			
     //+1 Buy
     state->numBuys++;
-			
+	
+	//commenting out this set of code to introduce a bug
+	/*
     //Each other player draws a card
     for (int i = 0; i < state->numPlayers; i++)
 	{
@@ -732,7 +736,7 @@ void card_council_room(int currentPlayer, struct gameState *state, int handPos)
 	    {
 	      drawCard(i, state);
 	    }
-	}
+	}*/
 			
     //put played card in played card pile
     discardCard(handPos, currentPlayer, state, 0);
@@ -754,7 +758,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
   int temphand[MAX_HAND];// moved above the if statement
   int z = 0;// this is the counter for the temp hand
   int drawntreasure=0;
-  int cardDrawn;
+  int cardDrawn = 0;
   if (nextPlayer > (state->numPlayers - 1)){
     nextPlayer = 0;
   }
@@ -763,7 +767,9 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
   switch( card ) 
     {
     case adventurer:
-      card_adventurer(cardDrawn, currentPlayer, drawntreasure, z, state, temphand);
+	  //commented out correct function call to introduce a bug
+	  //card_adventurer(cardDrawn, currentPlayer, drawntreasure, z, state, temphand);
+      card_adventurer(currentPlayer, cardDrawn, drawntreasure, z, state, temphand);
 	  return 0;
 			
     case council_room:
