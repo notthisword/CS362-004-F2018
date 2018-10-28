@@ -645,7 +645,7 @@ int getCost(int cardNumber)
 
 
   //function for the adventurer card
-void card_adventurer(int cardDrawn, int currentPlayer, int drawntreasure, int z, struct gameState *state, int temphand[])
+int card_adventurer(int cardDrawn, int currentPlayer, int drawntreasure, int z, struct gameState *state, int temphand[])
 { 
   while(drawntreasure<2)
   {
@@ -671,6 +671,8 @@ void card_adventurer(int cardDrawn, int currentPlayer, int drawntreasure, int z,
 	state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; // discard all cards in play that have been drawn
 	z=z-1;
   }
+  
+  return 1;
 }
 
   //function for the great hall card
