@@ -1,0 +1,757 @@
+Beginning tests for Great Hall card.
+
+Test failed with the following criteria on Test 1:
+Player 1 of 2, Seed: 1181
+Test failed with the following criteria on Test 1:
+Player 2 of 2, Seed: 1181
+Test failed with the following criteria on Test 2:
+Player 1 of 4, Seed: 1748
+Test failed with the following criteria on Test 2:
+Player 2 of 4, Seed: 1748
+Test failed with the following criteria on Test 2:
+Player 3 of 4, Seed: 1748
+Test failed with the following criteria on Test 2:
+Player 4 of 4, Seed: 1748
+Test failed with the following criteria on Test 3:
+Player 1 of 2, Seed: 1182
+Test failed with the following criteria on Test 3:
+Player 2 of 2, Seed: 1182
+Test failed with the following criteria on Test 4:
+Player 1 of 2, Seed: 1546
+Test failed with the following criteria on Test 4:
+Player 2 of 2, Seed: 1546
+Test failed with the following criteria on Test 5:
+Player 1 of 3, Seed: 1403
+Test failed with the following criteria on Test 5:
+Player 2 of 3, Seed: 1403
+Test failed with the following criteria on Test 5:
+Player 3 of 3, Seed: 1403
+Test failed with the following criteria on Test 6:
+Player 1 of 4, Seed: 1557
+Test failed with the following criteria on Test 6:
+Player 2 of 4, Seed: 1557
+Test failed with the following criteria on Test 6:
+Player 3 of 4, Seed: 1557
+Test failed with the following criteria on Test 6:
+Player 4 of 4, Seed: 1557
+Test failed with the following criteria on Test 7:
+Player 1 of 4, Seed: 1506
+Test failed with the following criteria on Test 7:
+Player 2 of 4, Seed: 1506
+Test failed with the following criteria on Test 7:
+Player 3 of 4, Seed: 1506
+Test failed with the following criteria on Test 7:
+Player 4 of 4, Seed: 1506
+Test failed with the following criteria on Test 8:
+Player 1 of 4, Seed: 1968
+Test failed with the following criteria on Test 8:
+Player 2 of 4, Seed: 1968
+Test failed with the following criteria on Test 8:
+Player 3 of 4, Seed: 1968
+Test failed with the following criteria on Test 8:
+Player 4 of 4, Seed: 1968
+Test failed with the following criteria on Test 9:
+Player 1 of 2, Seed: 1398
+Test failed with the following criteria on Test 9:
+Player 2 of 2, Seed: 1398
+Test failed with the following criteria on Test 10:
+Player 1 of 4, Seed: 1082
+Test failed with the following criteria on Test 10:
+Player 2 of 4, Seed: 1082
+Test failed with the following criteria on Test 10:
+Player 3 of 4, Seed: 1082
+Test failed with the following criteria on Test 10:
+Player 4 of 4, Seed: 1082
+Test failed with the following criteria on Test 11:
+Player 1 of 4, Seed: 1018
+Test failed with the following criteria on Test 11:
+Player 2 of 4, Seed: 1018
+Test failed with the following criteria on Test 11:
+Player 3 of 4, Seed: 1018
+Test failed with the following criteria on Test 11:
+Player 4 of 4, Seed: 1018
+Test failed with the following criteria on Test 12:
+Player 1 of 4, Seed: 1397
+Test failed with the following criteria on Test 12:
+Player 2 of 4, Seed: 1397
+Test failed with the following criteria on Test 12:
+Player 3 of 4, Seed: 1397
+Test failed with the following criteria on Test 12:
+Player 4 of 4, Seed: 1397
+Test failed with the following criteria on Test 13:
+Player 1 of 3, Seed: 1963
+Test failed with the following criteria on Test 13:
+Player 2 of 3, Seed: 1963
+Test failed with the following criteria on Test 13:
+Player 3 of 3, Seed: 1963
+Test failed with the following criteria on Test 14:
+Player 1 of 2, Seed: 1032
+Test failed with the following criteria on Test 14:
+Player 2 of 2, Seed: 1032
+Test failed with the following criteria on Test 15:
+Player 1 of 3, Seed: 1536
+Test failed with the following criteria on Test 15:
+Player 2 of 3, Seed: 1536
+Test failed with the following criteria on Test 15:
+Player 3 of 3, Seed: 1536
+Test failed with the following criteria on Test 16:
+Player 1 of 4, Seed: 1605
+Test failed with the following criteria on Test 16:
+Player 2 of 4, Seed: 1605
+Test failed with the following criteria on Test 16:
+Player 3 of 4, Seed: 1605
+Test failed with the following criteria on Test 16:
+Player 4 of 4, Seed: 1605
+Test failed with the following criteria on Test 17:
+Player 1 of 2, Seed: 1699
+Test failed with the following criteria on Test 17:
+Player 2 of 2, Seed: 1699
+Test failed with the following criteria on Test 18:
+Player 1 of 4, Seed: 1524
+Test failed with the following criteria on Test 18:
+Player 2 of 4, Seed: 1524
+Test failed with the following criteria on Test 18:
+Player 3 of 4, Seed: 1524
+Test failed with the following criteria on Test 18:
+Player 4 of 4, Seed: 1524
+Test failed with the following criteria on Test 19:
+Player 1 of 4, Seed: 1772
+Test failed with the following criteria on Test 19:
+Player 2 of 4, Seed: 1772
+Test failed with the following criteria on Test 19:
+Player 3 of 4, Seed: 1772
+Test failed with the following criteria on Test 19:
+Player 4 of 4, Seed: 1772
+Test failed with the following criteria on Test 20:
+Player 1 of 4, Seed: 1171
+Test failed with the following criteria on Test 20:
+Player 2 of 4, Seed: 1171
+Test failed with the following criteria on Test 20:
+Player 3 of 4, Seed: 1171
+Test failed with the following criteria on Test 20:
+Player 4 of 4, Seed: 1171
+Test failed with the following criteria on Test 21:
+Player 1 of 2, Seed: 1581
+Test failed with the following criteria on Test 21:
+Player 2 of 2, Seed: 1581
+Test failed with the following criteria on Test 22:
+Player 1 of 2, Seed: 1350
+Test failed with the following criteria on Test 22:
+Player 2 of 2, Seed: 1350
+Test failed with the following criteria on Test 23:
+Player 1 of 2, Seed: 1252
+Test failed with the following criteria on Test 23:
+Player 2 of 2, Seed: 1252
+Test failed with the following criteria on Test 24:
+Player 1 of 3, Seed: 1350
+Test failed with the following criteria on Test 24:
+Player 2 of 3, Seed: 1350
+Test failed with the following criteria on Test 24:
+Player 3 of 3, Seed: 1350
+Test failed with the following criteria on Test 25:
+Player 1 of 2, Seed: 1087
+Test failed with the following criteria on Test 25:
+Player 2 of 2, Seed: 1087
+Test failed with the following criteria on Test 26:
+Player 1 of 2, Seed: 1271
+Test failed with the following criteria on Test 26:
+Player 2 of 2, Seed: 1271
+Test failed with the following criteria on Test 27:
+Player 1 of 3, Seed: 1311
+Test failed with the following criteria on Test 27:
+Player 2 of 3, Seed: 1311
+Test failed with the following criteria on Test 27:
+Player 3 of 3, Seed: 1311
+Test failed with the following criteria on Test 28:
+Player 1 of 2, Seed: 1236
+Test failed with the following criteria on Test 28:
+Player 2 of 2, Seed: 1236
+Test failed with the following criteria on Test 29:
+Player 1 of 4, Seed: 1164
+Test failed with the following criteria on Test 29:
+Player 2 of 4, Seed: 1164
+Test failed with the following criteria on Test 29:
+Player 3 of 4, Seed: 1164
+Test failed with the following criteria on Test 29:
+Player 4 of 4, Seed: 1164
+Test failed with the following criteria on Test 30:
+Player 1 of 3, Seed: 1386
+Test failed with the following criteria on Test 30:
+Player 2 of 3, Seed: 1386
+Test failed with the following criteria on Test 30:
+Player 3 of 3, Seed: 1386
+Test failed with the following criteria on Test 31:
+Player 1 of 3, Seed: 1053
+Test failed with the following criteria on Test 31:
+Player 2 of 3, Seed: 1053
+Test failed with the following criteria on Test 31:
+Player 3 of 3, Seed: 1053
+Test failed with the following criteria on Test 32:
+Player 1 of 4, Seed: 1283
+Test failed with the following criteria on Test 32:
+Player 2 of 4, Seed: 1283
+Test failed with the following criteria on Test 32:
+Player 3 of 4, Seed: 1283
+Test failed with the following criteria on Test 32:
+Player 4 of 4, Seed: 1283
+Test failed with the following criteria on Test 33:
+Player 1 of 4, Seed: 1936
+Test failed with the following criteria on Test 33:
+Player 2 of 4, Seed: 1936
+Test failed with the following criteria on Test 33:
+Player 3 of 4, Seed: 1936
+Test failed with the following criteria on Test 33:
+Player 4 of 4, Seed: 1936
+Test failed with the following criteria on Test 34:
+Player 1 of 4, Seed: 1168
+Test failed with the following criteria on Test 34:
+Player 2 of 4, Seed: 1168
+Test failed with the following criteria on Test 34:
+Player 3 of 4, Seed: 1168
+Test failed with the following criteria on Test 34:
+Player 4 of 4, Seed: 1168
+Test failed with the following criteria on Test 35:
+Player 1 of 4, Seed: 1141
+Test failed with the following criteria on Test 35:
+Player 2 of 4, Seed: 1141
+Test failed with the following criteria on Test 35:
+Player 3 of 4, Seed: 1141
+Test failed with the following criteria on Test 35:
+Player 4 of 4, Seed: 1141
+Test failed with the following criteria on Test 36:
+Player 1 of 2, Seed: 1859
+Test failed with the following criteria on Test 36:
+Player 2 of 2, Seed: 1859
+Test failed with the following criteria on Test 37:
+Player 1 of 4, Seed: 1953
+Test failed with the following criteria on Test 37:
+Player 2 of 4, Seed: 1953
+Test failed with the following criteria on Test 37:
+Player 3 of 4, Seed: 1953
+Test failed with the following criteria on Test 37:
+Player 4 of 4, Seed: 1953
+Test failed with the following criteria on Test 38:
+Player 1 of 3, Seed: 1194
+Test failed with the following criteria on Test 38:
+Player 2 of 3, Seed: 1194
+Test failed with the following criteria on Test 38:
+Player 3 of 3, Seed: 1194
+Test failed with the following criteria on Test 39:
+Player 1 of 4, Seed: 1649
+Test failed with the following criteria on Test 39:
+Player 2 of 4, Seed: 1649
+Test failed with the following criteria on Test 39:
+Player 3 of 4, Seed: 1649
+Test failed with the following criteria on Test 39:
+Player 4 of 4, Seed: 1649
+Test failed with the following criteria on Test 40:
+Player 1 of 2, Seed: 1965
+Test failed with the following criteria on Test 40:
+Player 2 of 2, Seed: 1965
+Test failed with the following criteria on Test 41:
+Player 1 of 4, Seed: 1286
+Test failed with the following criteria on Test 41:
+Player 2 of 4, Seed: 1286
+Test failed with the following criteria on Test 41:
+Player 3 of 4, Seed: 1286
+Test failed with the following criteria on Test 41:
+Player 4 of 4, Seed: 1286
+Test failed with the following criteria on Test 42:
+Player 1 of 2, Seed: 1146
+Test failed with the following criteria on Test 42:
+Player 2 of 2, Seed: 1146
+Test failed with the following criteria on Test 43:
+Player 1 of 4, Seed: 1477
+Test failed with the following criteria on Test 43:
+Player 2 of 4, Seed: 1477
+Test failed with the following criteria on Test 43:
+Player 3 of 4, Seed: 1477
+Test failed with the following criteria on Test 43:
+Player 4 of 4, Seed: 1477
+Test failed with the following criteria on Test 44:
+Player 1 of 4, Seed: 1742
+Test failed with the following criteria on Test 44:
+Player 2 of 4, Seed: 1742
+Test failed with the following criteria on Test 44:
+Player 3 of 4, Seed: 1742
+Test failed with the following criteria on Test 44:
+Player 4 of 4, Seed: 1742
+Test failed with the following criteria on Test 45:
+Player 1 of 4, Seed: 1786
+Test failed with the following criteria on Test 45:
+Player 2 of 4, Seed: 1786
+Test failed with the following criteria on Test 45:
+Player 3 of 4, Seed: 1786
+Test failed with the following criteria on Test 45:
+Player 4 of 4, Seed: 1786
+Test failed with the following criteria on Test 46:
+Player 1 of 2, Seed: 1943
+Test failed with the following criteria on Test 46:
+Player 2 of 2, Seed: 1943
+Test failed with the following criteria on Test 47:
+Player 1 of 3, Seed: 1372
+Test failed with the following criteria on Test 47:
+Player 2 of 3, Seed: 1372
+Test failed with the following criteria on Test 47:
+Player 3 of 3, Seed: 1372
+Test failed with the following criteria on Test 48:
+Player 1 of 3, Seed: 1716
+Test failed with the following criteria on Test 48:
+Player 2 of 3, Seed: 1716
+Test failed with the following criteria on Test 48:
+Player 3 of 3, Seed: 1716
+Test failed with the following criteria on Test 49:
+Player 1 of 3, Seed: 1762
+Test failed with the following criteria on Test 49:
+Player 2 of 3, Seed: 1762
+Test failed with the following criteria on Test 49:
+Player 3 of 3, Seed: 1762
+Test failed with the following criteria on Test 50:
+Player 1 of 4, Seed: 1241
+Test failed with the following criteria on Test 50:
+Player 2 of 4, Seed: 1241
+Test failed with the following criteria on Test 50:
+Player 3 of 4, Seed: 1241
+Test failed with the following criteria on Test 50:
+Player 4 of 4, Seed: 1241
+Test failed with the following criteria on Test 51:
+Player 1 of 3, Seed: 1878
+Test failed with the following criteria on Test 51:
+Player 2 of 3, Seed: 1878
+Test failed with the following criteria on Test 51:
+Player 3 of 3, Seed: 1878
+Test failed with the following criteria on Test 52:
+Player 1 of 4, Seed: 1880
+Test failed with the following criteria on Test 52:
+Player 2 of 4, Seed: 1880
+Test failed with the following criteria on Test 52:
+Player 3 of 4, Seed: 1880
+Test failed with the following criteria on Test 52:
+Player 4 of 4, Seed: 1880
+Test failed with the following criteria on Test 53:
+Player 1 of 2, Seed: 1153
+Test failed with the following criteria on Test 53:
+Player 2 of 2, Seed: 1153
+Test failed with the following criteria on Test 54:
+Player 1 of 4, Seed: 1415
+Test failed with the following criteria on Test 54:
+Player 2 of 4, Seed: 1415
+Test failed with the following criteria on Test 54:
+Player 3 of 4, Seed: 1415
+Test failed with the following criteria on Test 54:
+Player 4 of 4, Seed: 1415
+Test failed with the following criteria on Test 55:
+Player 1 of 2, Seed: 1750
+Test failed with the following criteria on Test 55:
+Player 2 of 2, Seed: 1750
+Test failed with the following criteria on Test 56:
+Player 1 of 4, Seed: 1329
+Test failed with the following criteria on Test 56:
+Player 2 of 4, Seed: 1329
+Test failed with the following criteria on Test 56:
+Player 3 of 4, Seed: 1329
+Test failed with the following criteria on Test 56:
+Player 4 of 4, Seed: 1329
+Test failed with the following criteria on Test 57:
+Player 1 of 3, Seed: 1993
+Test failed with the following criteria on Test 57:
+Player 2 of 3, Seed: 1993
+Test failed with the following criteria on Test 57:
+Player 3 of 3, Seed: 1993
+Test failed with the following criteria on Test 58:
+Player 1 of 2, Seed: 1011
+Test failed with the following criteria on Test 58:
+Player 2 of 2, Seed: 1011
+Test failed with the following criteria on Test 59:
+Player 1 of 2, Seed: 1191
+Test failed with the following criteria on Test 59:
+Player 2 of 2, Seed: 1191
+Test failed with the following criteria on Test 60:
+Player 1 of 2, Seed: 1284
+Test failed with the following criteria on Test 60:
+Player 2 of 2, Seed: 1284
+Test failed with the following criteria on Test 61:
+Player 1 of 3, Seed: 1605
+Test failed with the following criteria on Test 61:
+Player 2 of 3, Seed: 1605
+Test failed with the following criteria on Test 61:
+Player 3 of 3, Seed: 1605
+Test failed with the following criteria on Test 62:
+Player 1 of 4, Seed: 1350
+Test failed with the following criteria on Test 62:
+Player 2 of 4, Seed: 1350
+Test failed with the following criteria on Test 62:
+Player 3 of 4, Seed: 1350
+Test failed with the following criteria on Test 62:
+Player 4 of 4, Seed: 1350
+Test failed with the following criteria on Test 63:
+Player 1 of 2, Seed: 1170
+Test failed with the following criteria on Test 63:
+Player 2 of 2, Seed: 1170
+Test failed with the following criteria on Test 64:
+Player 1 of 4, Seed: 1157
+Test failed with the following criteria on Test 64:
+Player 2 of 4, Seed: 1157
+Test failed with the following criteria on Test 64:
+Player 3 of 4, Seed: 1157
+Test failed with the following criteria on Test 64:
+Player 4 of 4, Seed: 1157
+Test failed with the following criteria on Test 65:
+Player 1 of 4, Seed: 1825
+Test failed with the following criteria on Test 65:
+Player 2 of 4, Seed: 1825
+Test failed with the following criteria on Test 65:
+Player 3 of 4, Seed: 1825
+Test failed with the following criteria on Test 65:
+Player 4 of 4, Seed: 1825
+Test failed with the following criteria on Test 66:
+Player 1 of 4, Seed: 1888
+Test failed with the following criteria on Test 66:
+Player 2 of 4, Seed: 1888
+Test failed with the following criteria on Test 66:
+Player 3 of 4, Seed: 1888
+Test failed with the following criteria on Test 66:
+Player 4 of 4, Seed: 1888
+Test failed with the following criteria on Test 67:
+Player 1 of 2, Seed: 1180
+Test failed with the following criteria on Test 67:
+Player 2 of 2, Seed: 1180
+Test failed with the following criteria on Test 68:
+Player 1 of 2, Seed: 1559
+Test failed with the following criteria on Test 68:
+Player 2 of 2, Seed: 1559
+Test failed with the following criteria on Test 69:
+Player 1 of 3, Seed: 1348
+Test failed with the following criteria on Test 69:
+Player 2 of 3, Seed: 1348
+Test failed with the following criteria on Test 69:
+Player 3 of 3, Seed: 1348
+Test failed with the following criteria on Test 70:
+Player 1 of 4, Seed: 1983
+Test failed with the following criteria on Test 70:
+Player 2 of 4, Seed: 1983
+Test failed with the following criteria on Test 70:
+Player 3 of 4, Seed: 1983
+Test failed with the following criteria on Test 70:
+Player 4 of 4, Seed: 1983
+Test failed with the following criteria on Test 71:
+Player 1 of 2, Seed: 1788
+Test failed with the following criteria on Test 71:
+Player 2 of 2, Seed: 1788
+Test failed with the following criteria on Test 72:
+Player 1 of 4, Seed: 1075
+Test failed with the following criteria on Test 72:
+Player 2 of 4, Seed: 1075
+Test failed with the following criteria on Test 72:
+Player 3 of 4, Seed: 1075
+Test failed with the following criteria on Test 72:
+Player 4 of 4, Seed: 1075
+Test failed with the following criteria on Test 73:
+Player 1 of 2, Seed: 1168
+Test failed with the following criteria on Test 73:
+Player 2 of 2, Seed: 1168
+Test failed with the following criteria on Test 74:
+Player 1 of 2, Seed: 1077
+Test failed with the following criteria on Test 74:
+Player 2 of 2, Seed: 1077
+Test failed with the following criteria on Test 75:
+Player 1 of 4, Seed: 1547
+Test failed with the following criteria on Test 75:
+Player 2 of 4, Seed: 1547
+Test failed with the following criteria on Test 75:
+Player 3 of 4, Seed: 1547
+Test failed with the following criteria on Test 75:
+Player 4 of 4, Seed: 1547
+Test failed with the following criteria on Test 76:
+Player 1 of 4, Seed: 1302
+Test failed with the following criteria on Test 76:
+Player 2 of 4, Seed: 1302
+Test failed with the following criteria on Test 76:
+Player 3 of 4, Seed: 1302
+Test failed with the following criteria on Test 76:
+Player 4 of 4, Seed: 1302
+Test failed with the following criteria on Test 77:
+Player 1 of 3, Seed: 1504
+Test failed with the following criteria on Test 77:
+Player 2 of 3, Seed: 1504
+Test failed with the following criteria on Test 77:
+Player 3 of 3, Seed: 1504
+Test failed with the following criteria on Test 78:
+Player 1 of 2, Seed: 1459
+Test failed with the following criteria on Test 78:
+Player 2 of 2, Seed: 1459
+Test failed with the following criteria on Test 79:
+Player 1 of 2, Seed: 1832
+Test failed with the following criteria on Test 79:
+Player 2 of 2, Seed: 1832
+Test failed with the following criteria on Test 80:
+Player 1 of 4, Seed: 1706
+Test failed with the following criteria on Test 80:
+Player 2 of 4, Seed: 1706
+Test failed with the following criteria on Test 80:
+Player 3 of 4, Seed: 1706
+Test failed with the following criteria on Test 80:
+Player 4 of 4, Seed: 1706
+Test failed with the following criteria on Test 81:
+Player 1 of 3, Seed: 1175
+Test failed with the following criteria on Test 81:
+Player 2 of 3, Seed: 1175
+Test failed with the following criteria on Test 81:
+Player 3 of 3, Seed: 1175
+Test failed with the following criteria on Test 82:
+Player 1 of 3, Seed: 1363
+Test failed with the following criteria on Test 82:
+Player 2 of 3, Seed: 1363
+Test failed with the following criteria on Test 82:
+Player 3 of 3, Seed: 1363
+Test failed with the following criteria on Test 83:
+Player 1 of 3, Seed: 1780
+Test failed with the following criteria on Test 83:
+Player 2 of 3, Seed: 1780
+Test failed with the following criteria on Test 83:
+Player 3 of 3, Seed: 1780
+Test failed with the following criteria on Test 84:
+Player 1 of 2, Seed: 1158
+Test failed with the following criteria on Test 84:
+Player 2 of 2, Seed: 1158
+Test failed with the following criteria on Test 85:
+Player 1 of 4, Seed: 1008
+Test failed with the following criteria on Test 85:
+Player 2 of 4, Seed: 1008
+Test failed with the following criteria on Test 85:
+Player 3 of 4, Seed: 1008
+Test failed with the following criteria on Test 85:
+Player 4 of 4, Seed: 1008
+Test failed with the following criteria on Test 86:
+Player 1 of 3, Seed: 1362
+Test failed with the following criteria on Test 86:
+Player 2 of 3, Seed: 1362
+Test failed with the following criteria on Test 86:
+Player 3 of 3, Seed: 1362
+Test failed with the following criteria on Test 87:
+Player 1 of 2, Seed: 1395
+Test failed with the following criteria on Test 87:
+Player 2 of 2, Seed: 1395
+Test failed with the following criteria on Test 88:
+Player 1 of 4, Seed: 1220
+Test failed with the following criteria on Test 88:
+Player 2 of 4, Seed: 1220
+Test failed with the following criteria on Test 88:
+Player 3 of 4, Seed: 1220
+Test failed with the following criteria on Test 88:
+Player 4 of 4, Seed: 1220
+Test failed with the following criteria on Test 89:
+Player 1 of 4, Seed: 1242
+Test failed with the following criteria on Test 89:
+Player 2 of 4, Seed: 1242
+Test failed with the following criteria on Test 89:
+Player 3 of 4, Seed: 1242
+Test failed with the following criteria on Test 89:
+Player 4 of 4, Seed: 1242
+Test failed with the following criteria on Test 90:
+Player 1 of 2, Seed: 1388
+Test failed with the following criteria on Test 90:
+Player 2 of 2, Seed: 1388
+Test failed with the following criteria on Test 91:
+Player 1 of 2, Seed: 1525
+Test failed with the following criteria on Test 91:
+Player 2 of 2, Seed: 1525
+Test failed with the following criteria on Test 92:
+Player 1 of 3, Seed: 1822
+Test failed with the following criteria on Test 92:
+Player 2 of 3, Seed: 1822
+Test failed with the following criteria on Test 92:
+Player 3 of 3, Seed: 1822
+Test failed with the following criteria on Test 93:
+Player 1 of 4, Seed: 1285
+Test failed with the following criteria on Test 93:
+Player 2 of 4, Seed: 1285
+Test failed with the following criteria on Test 93:
+Player 3 of 4, Seed: 1285
+Test failed with the following criteria on Test 93:
+Player 4 of 4, Seed: 1285
+Test failed with the following criteria on Test 94:
+Player 1 of 4, Seed: 1834
+Test failed with the following criteria on Test 94:
+Player 2 of 4, Seed: 1834
+Test failed with the following criteria on Test 94:
+Player 3 of 4, Seed: 1834
+Test failed with the following criteria on Test 94:
+Player 4 of 4, Seed: 1834
+Test failed with the following criteria on Test 95:
+Player 1 of 2, Seed: 1078
+Test failed with the following criteria on Test 95:
+Player 2 of 2, Seed: 1078
+Test failed with the following criteria on Test 96:
+Player 1 of 2, Seed: 1241
+Test failed with the following criteria on Test 96:
+Player 2 of 2, Seed: 1241
+Test failed with the following criteria on Test 97:
+Player 1 of 4, Seed: 1283
+Test failed with the following criteria on Test 97:
+Player 2 of 4, Seed: 1283
+Test failed with the following criteria on Test 97:
+Player 3 of 4, Seed: 1283
+Test failed with the following criteria on Test 97:
+Player 4 of 4, Seed: 1283
+Test failed with the following criteria on Test 98:
+Player 1 of 4, Seed: 1199
+Test failed with the following criteria on Test 98:
+Player 2 of 4, Seed: 1199
+Test failed with the following criteria on Test 98:
+Player 3 of 4, Seed: 1199
+Test failed with the following criteria on Test 98:
+Player 4 of 4, Seed: 1199
+Test failed with the following criteria on Test 99:
+Player 1 of 2, Seed: 1204
+Test failed with the following criteria on Test 99:
+Player 2 of 2, Seed: 1204
+Test failed with the following criteria on Test 100:
+Player 1 of 2, Seed: 1871
+Test failed with the following criteria on Test 100:
+Player 2 of 2, Seed: 1871
+
+Tests completed for Great Hall card.
+
+File 'randomtestcard2.c'
+Lines executed:97.62% of 42
+Branches executed:100.00% of 18
+Taken at least once:77.78% of 18
+Calls executed:93.75% of 16
+Creating 'randomtestcard2.c.gcov'
+
+Function 'main'
+Lines executed:97.62% of 42
+
+File 'randomtestcard2.c'
+Lines executed:97.62% of 42
+Creating 'randomtestcard2.c.gcov'
+
+        -:    0:Source:randomtestcard2.c
+        -:    0:Graph:randomtestcard2.gcno
+        -:    0:Data:randomtestcard2.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:/*********************
+        -:    2: * Britany Hughes
+        -:    3: * CS 362 - Fall 2018
+        -:    4: * Assignment 4
+        -:    5: * 7 November 2018
+        -:    6: * Description: This is a random tester for the Great Hall card in
+        -:    7: * the dominion.c code.
+        -:    8: ********************/
+        -:    9:
+        -:   10:#include <stdio.h>
+        -:   11:#include <stdlib.h>
+        -:   12:#include <string.h>
+        -:   13:#include <assert.h>
+        -:   14:
+        -:   15:#include "dominion.h"
+        -:   16:#include "dominion_helpers.h"
+        -:   17:#include "rngs.h"
+        -:   18:
+        -:   19:/*********************
+        -:   20: * Reference Data
+        -:   21: * card_great_hall(int currentPlayer, struct gameState
+        -:   22:		*state, int handPos)
+        -:   23: * cardEffect(int card, int choice1, int choice2, int
+        -:   24:		choice3, struct gameState *state, int handPos
+        -:   25:		int *bonus)
+        -:   26: * drawCard(int player, struct gameState *state)
+        -:   27: * drawCard(currentPlayer, state)
+        -:   28: * testGame.numActions++
+        -:   29: * discardCard(int handPos, int currentPlayer, struct
+        -:   30:		gameState *state, int trashFlag)
+        -:   31: * discardCard(handPos, currentPlayer, state, 0)
+        -:   32: ********************/
+        -:   33: 
+        -:   34: 
+        1:   35: int main()
+        -:   36:{
+        -:   37:	//declare variables
+        1:   38:	int k[10] = {adventurer, council_room, village, remodel, smithy, steward, great_hall, gardens, tribute, baron};
+        -:   39:	struct gameState testGame;
+        1:   40:	int playerCount = 4;
+        1:   41:	int seed = 193;
+        1:   42:	int tempCard = 0;
+        -:   43:
+        -:   44:	//initialize counters
+        1:   45:	int p = 0; //player
+        1:   46:	int c = 0;
+        1:   47:	int h = 0; //total cards in hand
+        1:   48:	int d = 0; //deck count
+        -:   49:	
+        1:   50:	printf("Beginning tests for Great Hall card.\n\n");
+        -:   51:	
+        -:   52:	//100 is an arbitrary value; can be changed
+      101:   53:	for (c = 0; c < 100; c++)
+        -:   54:	{
+        -:   55:		//minimum player count is 2
+        -:   56:		//Note: rand() % (max - min + 1) + min
+      100:   57:		seed = rand() % (999 - 1 + 1) + 999;
+      100:   58:		playerCount = rand() % (MAX_PLAYERS - 2 + 1) + 2;
+        -:   59:		
+        -:   60:		//initialize the test game
+      100:   61:		initializeGame(playerCount, k, seed, &testGame);
+        -:   62:		
+      405:   63:		for (p = 0; p < playerCount; p++)
+        -:   64:		{
+        -:   65:			//reinitialize the test game on each loop through
+      305:   66:			memset(&testGame, 23, sizeof(struct gameState));
+      305:   67:			initializeGame(playerCount, k, seed, &testGame);
+        -:   68:			
+      305:   69:			if (!cardEffect(great_hall, 0, 0, 0, &testGame, 0, 0))
+        -:   70:			{
+      305:   71:				printf("Test failed with the following criteria on Test %d:\n", c+1);
+      305:   72:				printf("Player %d of %d, Seed: %d\n", p+1, playerCount, seed);
+        -:   73:			}
+        -:   74:		}
+        -:   75:	}
+        -:   76:	
+        -:   77:	//Beginning tests: is great_hall card discarded.
+        -:   78:	//reinitialize the test game
+        1:   79:	memset(&testGame, 23, sizeof(struct gameState));
+        1:   80:	initializeGame(playerCount, k, seed, &testGame);
+        1:   81:	p = 0;
+        -:   82:	
+        -:   83:	//set all of the cards in the player's deck to something other than great_hall
+        1:   84:	d = testGame.deckCount[p];
+        5:   85:	for (c = 1; c < d; c++)
+        -:   86:	{
+        4:   87:		int tempCard = 16; //16 is great_hall card in enum list
+        -:   88:		do 
+        -:   89:		{
+        -:   90:			//Note: rand() % (max - min + 1) + min
+        4:   91:			tempCard = rand() % (26 - 0 + 1) + 0;
+        4:   92:		}while (tempCard == 16);
+        4:   93:		testGame.deck[p][c] = tempCard;
+        -:   94:	}
+        -:   95:	
+        -:   96:	//set all of the cards in the player's hand to something other than great_hall except for one
+        1:   97:	h = numHandCards(&testGame);
+        1:   98:	testGame.hand[p][0] = great_hall;
+        5:   99:	for (c = 1; c < h; c++)
+        -:  100:	{
+        4:  101:		tempCard = 16; //16 is great_hall card in enum list
+        -:  102:		do 
+        -:  103:		{
+        -:  104:			//Note: rand() % (max - min + 1) + min
+        4:  105:			tempCard = rand() % (26 - 0 + 1) + 0;
+        4:  106:		}while (tempCard == 16);
+        4:  107:		testGame.hand[p][c] = tempCard;
+        -:  108:	}
+        -:  109:	
+        1:  110:	cardEffect(great_hall, 0, 0, 0, &testGame, 0, 0);
+        -:  111:	
+        -:  112:	//check to see if any of the cards in the hand is the great_hall card
+        1:  113:	h = numHandCards(&testGame);
+        6:  114:	for (c = 0; c < h; c++)
+        -:  115:	{
+        5:  116:		if (testGame.hand[p][c] == great_hall)
+        -:  117:		{
+    #####:  118:			printf("Test failed: Great Hall card was not discarded.\n");
+        -:  119:		}
+        -:  120:	}
+        -:  121:	
+        1:  122:	printf("\nTests completed for Great Hall card.\n\n");
+        -:  123:};
