@@ -1,0 +1,123 @@
+        -:    0:Source:randomtestadventurer.c
+        -:    0:Graph:randomtestadventurer.gcno
+        -:    0:Data:randomtestadventurer.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:/*********************
+        -:    2: * Britany Hughes
+        -:    3: * CS 362 - Fall 2018
+        -:    4: * Assignment 4
+        -:    5: * 7 November 2018
+        -:    6: * Description: This is a random tester for the Adventurer card in
+        -:    7: * the dominion.c code.
+        -:    8: ********************/
+        -:    9:
+        -:   10:#include <stdio.h>
+        -:   11:#include <stdlib.h>
+        -:   12:#include <string.h>
+        -:   13:#include <assert.h>
+        -:   14:
+        -:   15:#include "dominion.h"
+        -:   16:#include "dominion_helpers.h"
+        -:   17:#include "rngs.h"
+        -:   18:
+        -:   19:/*********************
+        -:   20: * Reference Data 
+        -:   21: * card_adventurer(int cardDrawn, int currentPlayer, int
+        -:   22:		drawntreasure, int z, struct gameState *state, 
+        -:   23:		int temphand[]
+        -:   24: * cardEffect(int card, int choice1, int choice2, int
+        -:   25:		choice3, struct gameState *state, int handPos
+        -:   26:		int *bonus)
+        -:   27: ********************/
+        -:   28:
+        1:   29:int main()
+        -:   30:{
+        -:   31:	//declare variables
+        1:   32:	int k[10] = {adventurer, council_room, village, remodel, smithy, steward, great_hall, gardens, tribute, baron};
+        -:   33:	struct gameState testGame;
+        1:   34:	int playerCount = 4;
+        1:   35:	int seed = 193;
+        1:   36:	int tempCard = 0;
+        -:   37:
+        -:   38:	//initialize counters
+        1:   39:	int p = 0; //player
+        1:   40:	int c = 0;
+        1:   41:	int h = 0; //total cards in hand
+        1:   42:	int d = 0; //deck count
+        -:   43:	
+        1:   44:	printf("Beginning tests for Adventurer card.\n\n");
+        -:   45:	
+        -:   46:	//100 is an arbitrary value; can be changed
+      101:   47:	for (c = 0; c < 100; c++)
+        -:   48:	{
+        -:   49:		//minimum player count is 2
+        -:   50:		//Note: rand() % (max - min + 1) + min
+      100:   51:		seed = rand() % (999 - 1 + 1) + 999;
+      100:   52:		playerCount = rand() % (MAX_PLAYERS - 2 + 1) + 2;
+        -:   53:		
+        -:   54:		//initialize the test game
+      100:   55:		initializeGame(playerCount, k, seed, &testGame);
+        -:   56:		
+      405:   57:		for (p = 0; p < playerCount; p++)
+        -:   58:		{
+        -:   59:			//reinitialize the test game on each loop through
+      305:   60:			memset(&testGame, 23, sizeof(struct gameState));
+      305:   61:			initializeGame(playerCount, k, seed, &testGame);
+        -:   62:			
+      305:   63:			if (!cardEffect(adventurer, 0, 0, 0, &testGame, 0, 0))
+        -:   64:			{
+      305:   65:				printf("Test failed with the following criteria on Test %d:\n", c+1);
+      305:   66:				printf("Player %d of %d, Seed: %d\n", p+1, playerCount, seed);
+        -:   67:			}
+        -:   68:		}
+        -:   69:	}
+        -:   70:	
+        -:   71:	//Beginning tests: is adventurer card discarded.
+        -:   72:	//reinitialize the test game
+        1:   73:	memset(&testGame, 23, sizeof(struct gameState));
+        1:   74:	initializeGame(playerCount, k, seed, &testGame);
+        1:   75:	p = 0;
+        -:   76:	
+        -:   77:	//set all of the cards in the player's deck to something other than adventurer
+        1:   78:	d = testGame.deckCount[p];
+        5:   79:	for (c = 1; c < d; c++)
+        -:   80:	{
+        4:   81:		int tempCard = 7; //7 is adventurer card in enum list
+        -:   82:		do 
+        -:   83:		{
+        -:   84:			//Note: rand() % (max - min + 1) + min
+        4:   85:			tempCard = rand() % (26 - 0 + 1) + 0;
+        4:   86:		}while (tempCard == 7);
+        4:   87:		testGame.deck[p][c] = tempCard;
+        -:   88:	}
+        -:   89:	
+        -:   90:	
+        -:   91:	//set all of the cards in the player's hand to something other than adventurer except for one
+        1:   92:	h = numHandCards(&testGame);
+        1:   93:	testGame.hand[p][0] = adventurer;
+        5:   94:	for (c = 1; c < h; c++)
+        -:   95:	{
+        4:   96:		tempCard = 7; //7 is adventurer card in enum list
+        -:   97:		do 
+        -:   98:		{
+        -:   99:			//Note: rand() % (max - min + 1) + min
+        4:  100:			tempCard = rand() % (26 - 0 + 1) + 0;
+        4:  101:		}while (tempCard == 7);
+        4:  102:		testGame.hand[p][c] = tempCard;
+        -:  103:	}
+        -:  104:	
+        1:  105:	cardEffect(adventurer, 0, 0, 0, &testGame, 0, 0);
+        -:  106:	
+        -:  107:	//check to see if any of the cards in the hand is the adventurer card
+        1:  108:	h = numHandCards(&testGame);
+        3:  109:	for (c = 0; c < h; c++)
+        -:  110:	{
+        2:  111:		if (testGame.hand[p][c] == adventurer)
+        -:  112:		{
+    #####:  113:			printf("Test failed: Adventurer card was not discarded.\n");
+        -:  114:		}
+        -:  115:	}
+        -:  116:	
+        1:  117:	printf("\nTests completed for Adventurer card.\n\n");
+        -:  118:};

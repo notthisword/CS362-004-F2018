@@ -64,13 +64,14 @@ int main()
 		}
 	}
 	
+	/*
 	//Beginning tests: treasuredrawn above 2
 	
 	//reinitialize the test game
 	memset(&testGame, 23, sizeof(struct gameState));
 	initializeGame(playerCount, k, seed, &testGame);
 	
-	if (!card_adventurer(0, 1, 3, 0, &testGame, 0))
+	if (card_adventurer(0, 1, 3, 0, &testGame, 0))
 	{
 		printf("Test failed: treasuredrawn above 2.\n");
 	}
@@ -81,10 +82,12 @@ int main()
 	memset(&testGame, 23, sizeof(struct gameState));
 	initializeGame(playerCount, k, seed, &testGame);
 	
-	if (!card_adventurer(0, 1, 2, 0, &testGame, 0))
+	if (card_adventurer(0, 1, 2, 0, &testGame, 0))
 	{
 		printf("Test failed: treasuredrawn equals 2.\n");
 	}
+	*/
+	
 	
 	/* Tests causing segfault; temporarily removed.
 	printf("\nBeginning tests: z above 2.\n");
@@ -108,6 +111,7 @@ int main()
 	{
 		printf("Test failed: z equals 2.\n");
 	}*/
+	
 	
 	return 0;
 }

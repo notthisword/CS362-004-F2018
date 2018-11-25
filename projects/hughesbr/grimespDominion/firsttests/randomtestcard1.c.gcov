@@ -1,0 +1,132 @@
+        -:    0:Source:randomtestcard1.c
+        -:    0:Graph:randomtestcard1.gcno
+        -:    0:Data:randomtestcard1.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:/*********************
+        -:    2: * Britany Hughes
+        -:    3: * CS 362 - Fall 2018
+        -:    4: * Assignment 4
+        -:    5: * 7 November 2018
+        -:    6: * Description: This is a random tester for the Smithy card in
+        -:    7: * the dominion.c code.
+        -:    8: ********************/
+        -:    9:
+        -:   10:#include <stdio.h>
+        -:   11:#include <stdlib.h>
+        -:   12:#include <string.h>
+        -:   13:#include <assert.h>
+        -:   14:
+        -:   15:#include "dominion.h"
+        -:   16:#include "dominion_helpers.h"
+        -:   17:#include "rngs.h"
+        -:   18:
+        -:   19:/*********************
+        -:   20: * Reference Data
+        -:   21: * card_smithy(int currentPlayer, struct gameState *state,
+        -:   22:		int handPos)
+        -:   23: * cardEffect(int card, int choice1, int choice2, int
+        -:   24:		choice3, struct gameState *state, int handPos
+        -:   25:		int *bonus)
+        -:   26: * drawCard(int player, struct gameState *state)
+        -:   27: * drawCard(currentPlayer, state)
+        -:   28: * discardCard(int handPos, int currentPlayer, struct
+        -:   29:		gameState *state, int trashFlag)
+        -:   30: * discardCard(handPos, currentPlayer, state, 0)
+        -:   31: * int handCard(int handPos, struct gameState *state)
+        -:   32: * card = handCard(handPos, state)
+        -:   33: * int numHandCards(struct gameState *state)
+        -:   34: * 
+        -:   35: ********************/
+        -:   36: 
+        -:   37: 
+        -:   38: 
+        1:   39: int main()
+        -:   40:{
+        -:   41:	//declare variables
+        1:   42:	int k[10] = {adventurer, council_room, village, remodel, smithy, steward, great_hall, gardens, tribute, baron};
+        -:   43:	struct gameState testGame;
+        1:   44:	int playerCount = 4;
+        1:   45:	int seed = 193;
+        1:   46:	int tempCard = 0;
+        -:   47:
+        -:   48:	//initialize counters
+        1:   49:	int p = 0; //player
+        1:   50:	int h = 0; //total cards in hand
+        1:   51:	int d = 0; //deck count
+        1:   52:	int c = 0;
+        -:   53:	
+        1:   54:	printf("Beginning tests for Smithy card.\n\n");
+        -:   55:	
+        -:   56:	//100 is an arbitrary value; can be changed
+       26:   57:	for (c = 0; c < 25; c++)
+        -:   58:	{
+        -:   59:		//minimum player count is 2
+        -:   60:		//Note: rand() % (max - min + 1) + min
+       25:   61:		seed = rand() % (999 - 1 + 1) + 999;
+       25:   62:		playerCount = rand() % (MAX_PLAYERS - 2 + 1) + 2;
+        -:   63:		
+        -:   64:		//initialize the test game
+       25:   65:		initializeGame(playerCount, k, seed, &testGame);
+        -:   66:		
+      101:   67:		for (p = 0; p < playerCount; p++)
+        -:   68:		{
+        -:   69:			//reinitialize the test game on each loop through
+       76:   70:			memset(&testGame, 23, sizeof(struct gameState));
+       76:   71:			initializeGame(playerCount, k, seed, &testGame);
+        -:   72:			
+       76:   73:			if (!cardEffect(smithy, 0, 0, 0, &testGame, 0, 0))
+        -:   74:			{
+       76:   75:				printf("Test failed with the following criteria on Test %d:\n", c+1);
+       76:   76:				printf("Player %d of %d, Seed: %d\n", p+1, playerCount, seed);
+        -:   77:			}
+        -:   78:		}
+        -:   79:	}
+        -:   80:	
+        -:   81:	//Beginning tests: is smithy card discarded.
+        -:   82:	//reinitialize the test game
+        1:   83:	memset(&testGame, 23, sizeof(struct gameState));
+        1:   84:	initializeGame(playerCount, k, seed, &testGame);
+        1:   85:	p = 0;
+        -:   86:	
+        -:   87:	//set all of the cards in the player's deck to something other than smithy
+        1:   88:	d = testGame.deckCount[p];
+        5:   89:	for (c = 1; c < d; c++)
+        -:   90:	{
+        4:   91:		tempCard = 13; //13 is smithy card in enum list
+        -:   92:		do 
+        -:   93:		{
+        -:   94:			//Note: rand() % (max - min + 1) + min
+        4:   95:			tempCard = rand() % (26 - 0 + 1) + 0;
+        4:   96:		}while (tempCard == 13);
+        4:   97:		testGame.deck[p][c] = tempCard;
+        -:   98:	}
+        -:   99:	
+        -:  100:	//set all of the cards in the player's hand to something other than smithy except for one
+        1:  101:	h = numHandCards(&testGame);
+        1:  102:	testGame.hand[p][0] = smithy;
+        5:  103:	for (c = 1; c < h; c++)
+        -:  104:	{
+        4:  105:		tempCard = 13; //13 is smithy card in enum list
+        -:  106:		do 
+        -:  107:		{
+        -:  108:			//Note: rand() % (max - min + 1) + min
+        4:  109:			tempCard = rand() % (26 - 0 + 1) + 0;
+        4:  110:		}while (tempCard == 13);
+        4:  111:		testGame.hand[p][c] = tempCard;
+        -:  112:	}
+        -:  113:	
+        1:  114:	cardEffect(smithy, 0, 0, 0, &testGame, 0, 0);
+        -:  115:	
+        -:  116:	//check to see if any of the cards in the hand is the smithy card
+        1:  117:	h = numHandCards(&testGame);
+        7:  118:	for (c = 0; c < h; c++)
+        -:  119:	{
+        6:  120:		if (testGame.hand[p][c] == smithy)
+        -:  121:		{
+    #####:  122:			printf("Test failed: Smithy card was not discarded.\n");
+        -:  123:		}
+        -:  124:	}
+        -:  125:	
+        1:  126:	printf("\nTests completed for Smithy card.\n\n");
+        -:  127:};

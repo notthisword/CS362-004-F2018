@@ -128,7 +128,7 @@ int getWinners(int players[MAX_PLAYERS], struct gameState *state);
 /* Set array position of each player who won (remember ties!) to
    1, others to 0 */
    
-int adventurerFunction(struct gameState *state);
+int adventurerFunction(int handPos, struct gameState *state);
 int council_roomFunction(int handPos, struct gameState *state);
 int smithyFunction(int HandPos,struct gameState *state);
 int great_hallFunction(int handPos, struct gameState *state);
